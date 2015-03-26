@@ -15,10 +15,10 @@
     {}))
 
 (defn- add-listener [w f]
-  (.addEventListener w f false))
+  (.addEventListener w "message" f false))
 
 (defn- remove-listener [w f]
-  (.removeEventListener w f false))
+  (.removeEventListener w "message" f false))
 
 (defn listen [f]
   (-> js/window

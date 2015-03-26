@@ -1,4 +1,4 @@
-(defproject messenger "0.0.2"
+(defproject messenger "0.0.2-1"
   :description "Asynchronous window.postMessage library for ClojureScript."
   :url "http://github.com/jogrms/messenger"
   :license {:name "Eclipse Public License 1.0"
